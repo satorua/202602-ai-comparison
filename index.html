@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>【2026年2月最新】ChatGPT・Claude・Gemini 徹底比較！あなたに最適なAIはどれ？</title>
+    <title>【2026年2月版】ChatGPT・Claude・Gemini 徹底比較</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,601 +21,601 @@
     <style>
         body {
             font-family: 'Noto Sans JP', sans-serif;
+            background-color: #F9F9F9;
+            color: #333;
+            line-height: 1.8;
+            /* Editorial readability */
         }
 
-        .gradient-text {
-            background: linear-gradient(to right, #2563EB, #1D4ED8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .editorial-container {
+            max-width: 900px;
+            /* User requested 800-900px */
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            min-height: 100vh;
+            padding: 40px 60px;
+            /* Ample padding like a paper */
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+        }
+
+        @media (max-width: 768px) {
+            .editorial-container {
+                padding: 20px;
+            }
+        }
+
+        h1,
+        h2,
+        h3 {
+            letter-spacing: -0.02em;
+            color: #1a202c;
+            /* slate-900 */
+        }
+
+        h2 {
+            border-bottom: 2px solid #f1f5f9;
+            /* slate-100 */
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            /* Reduced from large LP sizes */
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            /* 15px approx */
+            color: #475569;
+            /* slate-600 */
+        }
+
+        /* Table tweaks */
+        th {
+            background-color: #f8fafc;
+            color: #64748b;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        td {
+            font-size: 0.9rem;
         }
     </style>
 </head>
 
-<body class="bg-slate-50 text-slate-800">
+<body class="antialiased">
 
-    <!-- Header -->
-    <header class="active sticky top-0 bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-slate-100">
-        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-            <div class="flex items-center gap-2">
-                <div class="bg-blue-600 text-white font-bold px-2 py-1 rounded text-sm">mybest style</div>
-                <h1 class="font-bold text-lg text-slate-800">AI徹底比較ガイド</h1>
-            </div>
-            <div class="hidden md:flex gap-4 text-sm font-medium text-slate-500">
-                <a href="#recommend" class="hover:text-blue-600 transition">おすすめ3選</a>
-                <a href="#comparison" class="hover:text-blue-600 transition">比較表</a>
-                <a href="#pricing" class="hover:text-blue-600 transition">料金プラン</a>
-                <a href="#reviews" class="hover:text-blue-600 transition">詳細レビュー</a>
-            </div>
-        </div>
-    </header>
+    <div class="editorial-container">
 
-    <!-- Hero Section -->
-    <section class="bg-white pb-12 pt-16 md:pt-24 px-4 text-center border-b border-slate-200">
-        <div class="max-w-3xl mx-auto">
-            <span
-                class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full mb-4">2026年2月更新</span>
-            <h1 class="text-3xl md:text-5xl font-black mb-6 leading-tight">
-                ChatGPT vs Claude vs Gemini<br>
-                <span class="gradient-text">最強のAIはどれだ？</span>
-            </h1>
-            <p class="text-slate-500 text-lg md:text-xl mb-8 leading-relaxed">
-                GPT-5、Opus 4.5、Gemini 3 Proを徹底検証。<br>
-                あなたの用途に最適な1つが、必ず見つかります。
+        <!-- Header: Minimalist -->
+        <header class="border-b border-slate-100 pb-6 mb-10 flex justify-between items-end">
+            <div>
+                <div
+                    class="inline-block bg-slate-800 text-white font-bold px-2 py-0.5 rounded text-[10px] tracking-wider mb-2">
+                    mybest style</div>
+                <h1 class="text-3xl font-black leading-tight">AI徹底比較レポート<br><span
+                        class="text-lg font-medium text-slate-500">ChatGPT vs Claude vs Gemini</span></h1>
+            </div>
+            <div class="text-right text-xs text-slate-400 font-medium">
+                2026.02.14 更新<br>
+                編集部調べ
+            </div>
+        </header>
+
+        <!-- Intro -->
+        <section class="mb-12">
+            <p class="font-medium text-lg leading-relaxed text-slate-800">
+                GPT-5、Opus 4.5、Gemini 3 Pro。2026年、生成AIは新たな局面を迎えている。
+                「結局どれが一番賢いのか？」という問いに対し、エンジニア視点で徹底検証を行った。
+                結論から言えば、<strong>「万能なAI」は存在しない。</strong> しかし、「あなたの用途に最適なAI」は必ず存在する。
             </p>
-            <div class="flex justify-center gap-4">
-                <a href="#comparison"
-                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
-                    今すぐ比較表を見る
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Developer Background -->
-    <section class="py-12 bg-white px-4 border-b border-slate-100">
-        <div class="max-w-5xl mx-auto">
-            <h2 class="text-xl font-bold text-center mb-8 text-slate-700">開発企業の違いと特徴</h2>
+        <!-- At a Glance (Recommendation) -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold flex items-center gap-2">
+                <i data-lucide="crown" class="w-5 h-5 text-amber-500"></i>
+                結論：用途別ベストバイ
+            </h2>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- OpenAI -->
-                <div class="p-6 rounded-xl bg-green-50/50 border border-green-100">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="font-bold text-green-700">OpenAI</div>
-                        <span class="text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full">先駆者</span>
+                <!-- Card 1 -->
+                <div class="bg-amber-50/50 rounded-lg p-5 border border-amber-100">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-bold text-lg text-slate-900">Claude</span>
+                        <span
+                            class="text-[10px] font-bold bg-amber-200 text-amber-800 px-1.5 py-0.5 rounded">文章・コード</span>
                     </div>
-                    <p class="text-sm text-slate-600 leading-relaxed">
-                        生成AIブームの火付け役。総合力に優れ、誰でも使いやすい「万能型エコシステム」を構築。常に業界の最先端を走るリーダー的存在。
+                    <p class="text-xs text-slate-600 leading-relaxed mb-0">
+                        <strong>「人間らしさ」No.1。</strong><br>
+                        自然な日本語と、バグの少ないコーディング能力。プロからの信頼が最も厚い。
                     </p>
                 </div>
-                <!-- Anthropic -->
-                <div class="p-6 rounded-xl bg-amber-50/50 border border-amber-100">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="font-bold text-amber-700">Anthropic</div>
-                        <span class="text-xs bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">安全性</span>
+
+                <!-- Card 2 -->
+                <div class="bg-blue-50/50 rounded-lg p-5 border border-blue-100">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-bold text-lg text-slate-900">Gemini</span>
+                        <span class="text-[10px] font-bold bg-blue-200 text-blue-800 px-1.5 py-0.5 rounded">連携・動画</span>
                     </div>
-                    <p class="text-sm text-slate-600 leading-relaxed">
-                        元OpenAIメンバーが設立。「安全性」と「人への役立ちやすさ」を最重視。プロのエンジニアやライターから熱烈に支持される玄人好みのAI。
+                    <p class="text-xs text-slate-600 leading-relaxed mb-0">
+                        <strong>Google経済圏の覇者。</strong><br>
+                        Docs/Gmail連携と、Veo 2による動画生成。ビジネス効率化ならこれ一択。
                     </p>
                 </div>
-                <!-- Google -->
-                <div class="p-6 rounded-xl bg-blue-50/50 border border-blue-100">
-                    <div class="flex items-center gap-2 mb-3">
-                        <div class="font-bold text-blue-700">Google</div>
-                        <span class="text-xs bg-blue-200 text-blue-800 px-2 py-0.5 rounded-full">巨大企業</span>
+
+                <!-- Card 3 -->
+                <div class="bg-green-50/50 rounded-lg p-5 border border-green-100">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-bold text-lg text-slate-900">ChatGPT</span>
+                        <span
+                            class="text-[10px] font-bold bg-green-200 text-green-800 px-1.5 py-0.5 rounded">万能・画像</span>
                     </div>
-                    <p class="text-sm text-slate-600 leading-relaxed">
-                        検索エンジンの覇者。GmailやDocsなど既存ツールとの強力な連携が最大の武器。膨大なデータを処理する能力に長けている。
+                    <p class="text-xs text-slate-600 leading-relaxed mb-0">
+                        <strong>迷ったらこれ。</strong><br>
+                        DALL-E 3の画像生成と、圧倒的な情報量。アイデア出しの壁打ち相手に最適。
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- At a Glance (Recommendation) -->
-    <section id="recommend" class="py-16 px-4 max-w-5xl mx-auto">
-        <h2 class="text-2xl font-bold text-center mb-12">【結論】迷ったらこれを選べば間違いなし！</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Card 1: Claude -->
-            <div
-                class="bg-white rounded-2xl shadow-md border border-slate-100 overflow-hidden relative hover:shadow-xl transition group">
-                <div class="absolute top-0 left-0 w-full h-1 bg-amber-500"></div>
-                <div class="p-6">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="font-bold text-xl text-slate-800">Claude</h3>
-                        <span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded">文章・コード最強</span>
-                    </div>
-                    <p class="text-sm text-slate-500 mb-4 h-12">
-                        自然な日本語と圧倒的なコーディング能力。エンジニアやライターに最適。
-                    </p>
-                    <ul class="space-y-2 mb-6 text-sm">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> Code機能でバグ修正</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> 人間に近い自然な文章</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> ArtifactsでUIプレビュー</li>
-                    </ul>
-                    <a href="#review-claude"
-                        class="block text-center w-full bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold py-2 rounded-lg transition border border-slate-200">詳細を見る</a>
-                </div>
-            </div>
-
-            <!-- Card 2: Gemini -->
-            <div
-                class="bg-white rounded-2xl shadow-md border border-slate-100 overflow-hidden relative hover:shadow-xl transition group">
-                <div class="absolute top-0 left-0 w-full h-1 bg-blue-500"></div>
-                <div class="p-6">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="font-bold text-xl text-slate-800">Gemini</h3>
-                        <span class="bg-blue-100 text-blue-700 text-xs font-bold px-2 py-1 rounded">Google連携・動画</span>
-                    </div>
-                    <p class="text-sm text-slate-500 mb-4 h-12">
-                        Google Workspaceとの強力な連携と、Veo 2による高品質な動画生成が可能。
-                    </p>
-                    <ul class="space-y-2 mb-6 text-sm">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> Gmail/Docsと直接連携</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> 長文コンテキスト(100万+)</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> 動画生成が得意</li>
-                    </ul>
-                    <a href="#review-gemini"
-                        class="block text-center w-full bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold py-2 rounded-lg transition border border-slate-200">詳細を見る</a>
-                </div>
-            </div>
-
-            <!-- Card 3: ChatGPT -->
-            <div
-                class="bg-white rounded-2xl shadow-md border border-slate-100 overflow-hidden relative hover:shadow-xl transition group">
-                <div class="absolute top-0 left-0 w-full h-1 bg-green-500"></div>
-                <div class="p-6">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="font-bold text-xl text-slate-800">ChatGPT</h3>
-                        <span class="bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded">万能・画像生成</span>
-                    </div>
-                    <p class="text-sm text-slate-500 mb-4 h-12">
-                        DALL-E 3による画像生成やアイデア出しが得意。初心者にも使いやすい万能型。
-                    </p>
-                    <ul class="space-y-2 mb-6 text-sm">
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> DALL-E 3で画像生成</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> 柔軟なアイデア出し</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check-circle"
-                                class="w-4 h-4 text-green-500"></i> 高度な音声会話モード</li>
-                    </ul>
-                    <a href="#review-chatgpt"
-                        class="block text-center w-full bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold py-2 rounded-lg transition border border-slate-200">詳細を見る</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Comparison Table -->
-    <section id="comparison" class="py-12 bg-white px-4 border-t border-slate-200">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold text-center mb-8">機能別 徹底比較表</h2>
-            <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-slate-50 border-b border-slate-200">
-                            <th class="p-4 font-bold text-slate-600 text-sm w-1/4">比較項目</th>
-                            <th class="p-4 font-bold text-green-700 text-sm w-1/4 bg-green-50/50">ChatGPT<br><span
-                                    class="text-xs font-normal text-slate-500">GPT-5</span></th>
-                            <th class="p-4 font-bold text-amber-700 text-sm w-1/4 bg-amber-50/50">Claude<br><span
-                                    class="text-xs font-normal text-slate-500">Opus 4.5</span></th>
-                            <th class="p-4 font-bold text-blue-700 text-sm w-1/4 bg-blue-50/50">Gemini<br><span
-                                    class="text-xs font-normal text-slate-500">Gemini 3</span></th>
+        <!-- Developer Differences -->
+        <section>
+            <h2 class="text-xl font-bold">開発企業のスタンス比較</h2>
+            <div class="overflow-hidden border border-slate-200 rounded-lg text-sm">
+                <table class="w-full text-left">
+                    <thead class="bg-slate-50 border-b border-slate-200">
+                        <tr>
+                            <th class="p-3 w-1/4">企業</th>
+                            <th class="p-3">特徴と哲学</th>
                         </tr>
                     </thead>
-                    <tbody class="text-sm">
-
-                        <tr class="border-b border-slate-100">
-                            <td class="p-4 font-medium text-slate-700">コーディング</td>
-                            <td class="p-4 bg-green-50/20">
-                                <span class="text-slate-400">★★★★</span><br>
-                                <span>標準的</span>
+                    <tbody class="divide-y divide-slate-100">
+                        <tr>
+                            <td class="p-3 font-bold text-slate-700">OpenAI</td>
+                            <td class="p-3 text-slate-600">
+                                <span class="block font-bold text-green-700 text-xs mb-1">先駆者 (ChatGPT)</span>
+                                「AGI（汎用人工知能）の実現」を掲げ、常に業界の動向をリードする。機能の幅広さと使いやすさを最優先。
                             </td>
-                            <td class="p-4 bg-amber-50/20 font-bold text-amber-600">
-                                <span class="text-amber-500">★★★★★</span><br>
-                                <span>最高峰 (Code機能/ターミナル連携)</span>
-                            </td>
-                            <td class="p-4 bg-blue-50/20">
-                                <span class="text-slate-400">★★★</span><br>
-                                <span>普通</span>
-                            </td>
-                        </tr>
-                        <tr class="border-b border-slate-100">
-                            <td class="p-4 font-medium text-slate-700">文章作成</td>
-                            <td class="p-4 bg-green-50/20">
-                                <span class="text-slate-400">★★★★</span><br>
-                                <span>クリエイティブ</span>
-                            </td>
-                            <td class="p-4 bg-amber-50/20 font-bold text-amber-600">
-                                <span class="text-amber-500">★★★★★</span><br>
-                                <span>自然・人間らしい</span>
-                            </td>
-                            <td class="p-4 bg-blue-50/20">
-                                <span class="text-slate-400">★★★★</span><br>
-                                <span>学術的・硬め</span>
-                            </td>
-                        </tr>
-                        <tr class="border-b border-slate-100">
-                            <td class="p-4 font-medium text-slate-700">特徴的な機能</td>
-                            <td class="p-4 bg-green-50/20">
-                                <div class="flex items-center gap-1"><i data-lucide="image" class="w-3 h-3"></i> 画像生成
-                                    (DALL-E)</div>
-                            </td>
-                            <td class="p-4 bg-amber-50/20">
-                                <div class="flex items-center gap-1"><i data-lucide="code" class="w-3 h-3"></i>
-                                    Artifacts (プレビュー)</div>
-                            </td>
-                            <td class="p-4 bg-blue-50/20">
-                                <div class="flex flex-col gap-1">
-                                    <div class="flex items-center gap-1"><i data-lucide="video" class="w-3 h-3"></i>
-                                        動画生成
-                                        (Veo 2)</div>
-                                    <div class="flex items-center gap-1"><i data-lucide="briefcase" class="w-3 h-3"></i>
-                                        Workspace連携</div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="border-b border-slate-100">
-                            <td class="p-4 font-medium text-slate-700">コンテキスト量</td>
-                            <td class="p-4 bg-green-50/20">普通</td>
-                            <td class="p-4 bg-amber-50/20">多い</td>
-                            <td class="p-4 bg-blue-50/20 font-bold text-blue-600">圧倒的 (100万+)</td>
                         </tr>
                         <tr>
-                            <td class="p-4 font-medium text-slate-700">おすすめユーザー</td>
-                            <td class="p-4 bg-green-50/20">初心者・クリエイター</td>
-                            <td class="p-4 bg-amber-50/20">エンジニア・ライター</td>
-                            <td class="p-4 bg-blue-50/20">Googleユーザー</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Comparison Section -->
-    <section id="pricing" class="py-12 bg-slate-50 px-4 border-t border-slate-200">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold text-center mb-8">料金プラン詳細比較</h2>
-            <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-white">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-slate-100 border-b border-slate-200">
-                            <th class="p-4 font-bold text-slate-600 text-sm w-1/4">プラン</th>
-                            <th class="p-4 font-bold text-green-700 text-sm w-1/4">ChatGPT</th>
-                            <th class="p-4 font-bold text-amber-700 text-sm w-1/4">Claude</th>
-                            <th class="p-4 font-bold text-blue-700 text-sm w-1/4">Gemini</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-sm">
-                        <!-- Free Plan -->
-                        <tr class="border-b border-slate-100 bg-slate-50/50">
-                            <td class="p-4 font-bold text-slate-700 align-top">
-                                <span class="bg-slate-200 text-slate-700 px-2 py-1 rounded text-xs">無料プラン</span>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Free</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>GPT-4o (制限あり)</li>
-                                    <li>DALL-E 3 (1日2枚)</li>
-                                    <li>WEB検索可</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Free</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>Claude 3.5 Sonnet</li>
-                                    <li>利用回数は少なめ</li>
-                                    <li>Artifacts利用可</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Google AI Free</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>Gemini 2.0 Flash</li>
-                                    <li>高速レスポンス</li>
-                                    <li>Google検索連携</li>
-                                </ul>
+                            <td class="p-3 font-bold text-slate-700">Anthropic</td>
+                            <td class="p-3 text-slate-600">
+                                <span class="block font-bold text-amber-700 text-xs mb-1">安全性・実用 (Claude)</span>
+                                元OpenAI社員が設立。「Helpful（役立つ）、Harmless（無害）、Honest（正直）」を憲章とし、制御しやすく信頼できるAIを目指す。
                             </td>
                         </tr>
-                        <!-- Standard Plan -->
-                        <tr class="border-b border-slate-100">
-                            <td class="p-4 font-bold text-slate-700 align-top">
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">有料プラン</span>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Plus ($20/約3,000円)</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>GPT-5 Preview利用可</li>
-                                    <li>DALL-E 3 無制限</li>
-                                    <li>優先アクセス</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Claude Pro ($20/約3,000円)</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>Opus 4.5利用可</li>
-                                    <li>利用上限 5倍</li>
-                                    <li>混雑時も優先</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Google AI Pro (2,900円/税込)</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>Gemini 3 Pro</li>
-                                    <li>100万トークン</li>
-                                    <li>Python実行環境</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <!-- Upper/Enterprise Plan -->
                         <tr>
-                            <td class="p-4 font-bold text-slate-700 align-top">
-                                <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs">上位プラン</span>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Pro ($200/約31,000円)</p>
-                                <p class="text-xs text-slate-500 mb-2">無制限推論</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>o1 Pro (推論強化)</li>
-                                    <li>無制限の高速利用</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Claude Max ($100/$200)</p>
-                                <p class="text-xs text-slate-500 mb-2">容量重視</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>$100 (約15,500円): 容量5倍</li>
-                                    <li>$200 (約31,000円): 容量20倍</li>
-                                </ul>
-                            </td>
-                            <td class="p-4 align-top">
-                                <p class="font-bold mb-1">Google AI Ultra ($249.99/約38,700円)</p>
-                                <p class="text-xs text-slate-500 mb-2">最高性能+動画</p>
-                                <ul class="list-disc list-inside text-xs text-slate-600 space-y-1">
-                                    <li>最高性能モデル</li>
-                                    <li>Veo 2 動画生成 (最高制限)</li>
-                                    <li>YouTube Premium付帯</li>
-                                </ul>
+                            <td class="p-3 font-bold text-slate-700">Google</td>
+                            <td class="p-3 text-slate-600">
+                                <span class="block font-bold text-blue-700 text-xs mb-1">情報統合 (Gemini)</span>
+                                「世界中の情報を整理する」ミッション通り、検索エンジンやYouTube、Workspaceツールとの強固な連携を重視。
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Detailed Reviews -->
-    <section id="reviews" class="py-16 max-w-3xl mx-auto px-4 space-y-16">
+        <!-- Functional Comparison -->
+        <!-- Functional Comparison (Excel Style) -->
+        <section id="comparison" class="mb-12">
+            <h2 class="text-xl font-bold mb-2">機能別スペック詳細</h2>
+            <p class="text-xs text-slate-500 mb-4 text-right">※2026年2月時点 / 有料プラン基準 / 編集部調べ</p>
 
-        <!-- Claude Detail -->
-        <article id="review-claude" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-            <div class="flex items-center justify-between mb-6">
-                <div class="flex items-center gap-4">
-                    <div
-                        class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold">
-                        C</div>
-                    <div>
-                        <h3 class="text-2xl font-bold">Claude (Anthropic)</h3>
-                        <p class="text-sm text-slate-500">モデル: Claude 3.5 Opus / Sonnet</p>
+            <div class="overflow-x-auto overflow-y-auto max-h-[600px] border border-slate-300 bg-white shadow-sm">
+                <table class="w-full text-sm border-collapse text-left">
+                    <thead class="sticky top-0 z-10 bg-slate-100/95 backdrop-blur shadow-sm">
+                        <tr>
+                            <th
+                                class="p-2 border border-slate-300 w-[150px] min-w-[120px] bg-slate-200 font-bold text-slate-700 text-xs">
+                                比較項目</th>
+                            <th class="p-2 border border-slate-300 min-w-[200px] bg-green-50 text-green-900 font-bold">
+                                ChatGPT <span class="font-normal text-slate-500 text-xs ml-1">OpenAI</span>
+                            </th>
+                            <th class="p-2 border border-slate-300 min-w-[200px] bg-amber-50 text-amber-900 font-bold">
+                                Claude <span class="font-normal text-slate-500 text-xs ml-1">Anthropic</span>
+                            </th>
+                            <th class="p-2 border border-slate-300 min-w-[200px] bg-blue-50 text-blue-900 font-bold">
+                                Gemini <span class="font-normal text-slate-500 text-xs ml-1">Google</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-700 text-xs md:text-sm">
+                        <!-- Category: Base Specs -->
+                        <tr class="bg-slate-50">
+                            <td colspan="4"
+                                class="px-2 py-1 border border-slate-300 font-bold text-xs text-slate-500 bg-slate-100">
+                                ▼ 基本スペック</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">最新モデル</td>
+                            <td class="px-2 py-1.5 border border-slate-300 font-mono">GPT-5 Preview / 4o</td>
+                            <td class="px-2 py-1.5 border border-slate-300 font-mono">Claude 3.5 Sonnet / Opus</td>
+                            <td class="px-2 py-1.5 border border-slate-300 font-mono">Gemini 1.5 Pro / 2.0 Flash</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">コンテキスト窓</td>
+                            <td class="px-2 py-1.5 border border-slate-300">128,000 トークン</td>
+                            <td class="px-2 py-1.5 border border-slate-300">200,000 トークン</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-blue-50 text-blue-800 font-bold">
+                                1,000,000+ トークン</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">知識の鮮度</td>
+                            <td class="px-2 py-1.5 border border-slate-300">リアルタイム (Bing検索)</td>
+                            <td class="px-2 py-1.5 border border-slate-300">数ヶ月前 (検索機能弱)</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-blue-50 text-blue-800 font-bold">超リアルタイム
+                                (Google検索)</td>
+                        </tr>
+
+                        <!-- Category: Performance -->
+                        <tr class="bg-slate-50">
+                            <td colspan="4"
+                                class="px-2 py-1 border border-slate-300 font-bold text-xs text-slate-500 bg-slate-100">
+                                ▼ 性能評価 (5段階)</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">日本語自然度</td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">4.0</span> <span class="text-xs">一般的</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-amber-50 text-amber-900">
+                                <span class="text-amber-500 font-bold">5.0</span> <span
+                                    class="text-xs font-bold">極めて自然・人間的</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">3.5</span> <span class="text-xs">少し硬い・翻訳調</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">コーディング</td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">4.0</span> <span
+                                    class="text-xs">Canvas機能あり</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-amber-50 text-amber-900">
+                                <span class="text-amber-500 font-bold">5.0</span> <span
+                                    class="text-xs font-bold">Artifactsが強力</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">3.5</span> <span
+                                    class="text-xs">Python環境は◎</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">論理推論</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-green-50 text-green-900">
+                                <span class="text-amber-500 font-bold">5.0</span> <span
+                                    class="text-xs font-bold">o1で圧勝</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">4.5</span> <span
+                                    class="text-xs">Opusは非常に優秀</span>
+                            </td>
+                            <td class="px-2 py-1.5 border border-slate-300">
+                                <span class="text-amber-500 font-bold">4.0</span> <span class="text-xs">ムラがある</span>
+                            </td>
+                        </tr>
+
+                        <!-- Category: Multimodal -->
+                        <tr class="bg-slate-50">
+                            <td colspan="4"
+                                class="px-2 py-1 border border-slate-300 font-bold text-xs text-slate-500 bg-slate-100">
+                                ▼ マルチモーダル・機能</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">画像生成</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-green-50 text-green-900 font-bold">◎
+                                DALL-E 3 (直感的)</td>
+                            <td class="px-2 py-1.5 border border-slate-300 text-slate-400">× 非対応</td>
+                            <td class="px-2 py-1.5 border border-slate-300">◯ Imagen 3 (高品質)</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">動画生成</td>
+                            <td class="px-2 py-1.5 border border-slate-300 text-slate-400">△ Sora (一部のみ)</td>
+                            <td class="px-2 py-1.5 border border-slate-300 text-slate-400">× 非対応</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-blue-50 text-blue-900 font-bold">◎ Veo 2
+                                (利用可)</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">ファイル解析</td>
+                            <td class="px-2 py-1.5 border border-slate-300">PDF / 画像 / Excel</td>
+                            <td class="px-2 py-1.5 border border-slate-300">PDF / 画像 / Code</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-blue-50 text-blue-900 font-bold">動画 / 音声 /
+                                大量PDF</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">出力速度</td>
+                            <td class="px-2 py-1.5 border border-slate-300">速い (特に4o)</td>
+                            <td class="px-2 py-1.5 border border-slate-300">普通</td>
+                            <td class="px-2 py-1.5 border border-slate-300">爆速 (Flashモデル)</td>
+                        </tr>
+
+                        <!-- Category: UX -->
+                        <tr class="bg-slate-50">
+                            <td colspan="4"
+                                class="px-2 py-1 border border-slate-300 font-bold text-xs text-slate-500 bg-slate-100">
+                                ▼ ユーザビリティ</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">スマホアプリ</td>
+                            <td class="px-2 py-1.5 border border-slate-300">◎ (音声会話が最高)</td>
+                            <td class="px-2 py-1.5 border border-slate-300">◯ (シンプル)</td>
+                            <td class="px-2 py-1.5 border border-slate-300">◯ (Googleアプリ統合)</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2 py-1.5 border border-slate-300 font-bold bg-slate-50">外部連携</td>
+                            <td class="px-2 py-1.5 border border-slate-300">GPTs (プラグイン豊富)</td>
+                            <td class="px-2 py-1.5 border border-slate-300">API利用 (MCPなど)</td>
+                            <td class="px-2 py-1.5 border border-slate-300 bg-blue-50 text-blue-900 font-bold">Workspace
+                                (Docs/Drive)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing">
+            <h2 class="text-xl font-bold">料金プラン構造とコスパ</h2>
+            <p class="text-sm">基本的には各社とも<strong>月額$20（約3,000円）</strong>が標準ラインです。</p>
+
+            <div class="mt-6 space-y-6">
+                <!-- ChatGPT -->
+                <div class="border-l-4 border-green-500 pl-4 py-1">
+                    <h3 class="text-base font-bold text-slate-900 m-0 p-0">ChatGPT (OpenAI)</h3>
+                    <div class="flex gap-4 mt-2 text-sm">
+                        <div class="w-20 font-bold text-slate-500">Free</div>
+                        <div class="flex-1">GPT-4o (回数制限), DALL-E (1日2枚)</div>
+                    </div>
+                    <div class="flex gap-4 mt-1 text-sm">
+                        <div class="w-20 font-bold text-green-600">Plus ($20)</div>
+                        <div class="flex-1">GPT-5 Preview, 画像生成無制限, create GPTs</div>
                     </div>
                 </div>
-                <div class="text-right">
-                    <div class="text-3xl font-black text-amber-500">4.9<span
-                            class="text-sm text-slate-400 font-normal">/5.0</span></div>
-                </div>
-            </div>
 
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-up"
-                            class="w-4 h-4 text-green-500"></i> メリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>Git連携も可能な強力なコーディング支援</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>違和感のない自然な日本語作成能力</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>Artifactsでアプリや図解を即座に可視化</span></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-down"
-                            class="w-4 h-4 text-slate-400"></i> デメリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-slate-400 mt-0.5"></i>
-                            <span>画像生成機能は搭載していない</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-slate-400 mt-0.5"></i>
-                            <span>Web検索機能は他社に比べると限定的</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mt-8 pt-6 border-t border-slate-100">
-                <p class="font-bold text-slate-800">結論：</p>
-                <p class="text-slate-600">エンジニアやライターなど、テキストとコードの品質を最重視するプロフェッショナルには迷わずおすすめ。</p>
-            </div>
-        </article>
-
-        <!-- Gemini Detail -->
-        <article id="review-gemini" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-            <div class="flex items-center justify-between mb-6">
-                <div class="flex items-center gap-4">
-                    <div
-                        class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
-                        G</div>
-                    <div>
-                        <h3 class="text-2xl font-bold">Gemini (Google)</h3>
-                        <p class="text-sm text-slate-500">モデル: Gemini 1.5 Pro / 2.0 Flash</p>
+                <!-- Claude -->
+                <div class="border-l-4 border-amber-500 pl-4 py-1">
+                    <h3 class="text-base font-bold text-slate-900 m-0 p-0">Claude (Anthropic)</h3>
+                    <div class="flex gap-4 mt-2 text-sm">
+                        <div class="w-20 font-bold text-slate-500">Free</div>
+                        <div class="flex-1">Sonnet 3.5 (制限きつめ)</div>
+                    </div>
+                    <div class="flex gap-4 mt-1 text-sm">
+                        <div class="w-20 font-bold text-amber-600">Pro ($20)</div>
+                        <div class="flex-1">Opus 4.5, 利用上限5倍, 優先アクセス</div>
                     </div>
                 </div>
-                <div class="text-right">
-                    <div class="text-3xl font-black text-blue-500">4.7<span
-                            class="text-sm text-slate-400 font-normal">/5.0</span></div>
-                </div>
-            </div>
 
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-up"
-                            class="w-4 h-4 text-green-500"></i> メリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>GmailやGoogleドキュメントとシームレスに連携</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>Veo 2による高品質な動画生成が可能</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>長時間の動画や大量の資料を一度に読み込める</span></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-down"
-                            class="w-4 h-4 text-slate-400"></i> デメリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-slate-400 mt-0.5"></i>
-                            <span>文章の自然さはClaudeに一歩譲る</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-slate-400 mt-0.5"></i>
-                            <span>ハルシネーション（誤情報）がやや多めという報告も</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mt-8 pt-6 border-t border-slate-100">
-                <p class="font-bold text-slate-800">結論：</p>
-                <p class="text-slate-600">Google Workspaceを日常的に使っている人や、動画制作・大量分析を行いたい人に最適。</p>
-            </div>
-        </article>
-
-        <!-- ChatGPT Detail -->
-        <article id="review-chatgpt" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-            <div class="flex items-center justify-between mb-6">
-                <div class="flex items-center gap-4">
-                    <div
-                        class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold">
-                        C</div>
-                    <div>
-                        <h3 class="text-2xl font-bold">ChatGPT (OpenAI)</h3>
-                        <p class="text-sm text-slate-500">モデル: GPT-4o / GPT-5 (Preview)</p>
+                <!-- Gemini -->
+                <div class="border-l-4 border-blue-500 pl-4 py-1">
+                    <h3 class="text-base font-bold text-slate-900 m-0 p-0">Gemini (Google)</h3>
+                    <div class="flex gap-4 mt-2 text-sm">
+                        <div class="w-20 font-bold text-slate-500">Free</div>
+                        <div class="flex-1">Flash 2.0 (高速・検索連携)</div>
+                    </div>
+                    <div class="flex gap-4 mt-1 text-sm">
+                        <div class="w-20 font-bold text-blue-600">Adv. (2,900円)</div>
+                        <div class="flex-1">Gemini 3 Pro, 100万トークン, Python実行環境</div>
                     </div>
                 </div>
-                <div class="text-right">
-                    <div class="text-3xl font-black text-green-500">4.6<span
-                            class="text-sm text-slate-400 font-normal">/5.0</span></div>
-                </div>
             </div>
+        </section>
 
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-up"
-                            class="w-4 h-4 text-green-500"></i> メリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>DALL-E 3による直感的な画像生成</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>圧倒的なユーザー数と豊富なプラグイン（GPTs）</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check"
-                                class="w-4 h-4 text-green-500 mt-0.5"></i> <span>音声会話モードのレスポンスが非常に高速</span></li>
-                    </ul>
+        <!-- Detailed Reviews (mybest Style) -->
+        <section id="reviews" class="mt-16 py-10 space-y-16 border-t border-slate-100">
+            <h2 class="text-2xl font-bold font-sans text-center mb-10">徹底検証レビュー</h2>
+
+            <!-- Claude (BEST BUY) -->
+            <article id="review-claude"
+                class="relative bg-white rounded-xl border-2 border-amber-400 shadow-sm p-6 overflow-visible">
+                <!-- Badge -->
+                <div
+                    class="absolute -top-4 -left-3 bg-amber-400 text-white font-black text-xs px-3 py-1 shadow-md transform -rotate-3 rounded-sm flex items-center gap-1 z-10">
+                    <i data-lucide="crown" class="w-3 h-3 fill-current"></i>
+                    BEST BUY
                 </div>
-                <div>
-                    <h4 class="font-bold mb-3 flex items-center gap-2"><i data-lucide="thumbs-down"
-                            class="w-4 h-4 text-slate-400"></i> デメリット</h4>
-                    <ul class="space-y-2 text-sm text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-slate-400 mt-0.5"></i>
-                            <span>コーディングなどの特化タスクではClaudeに劣る場合も</span>
+
+                <!-- Header -->
+                <div
+                    class="flex flex-col md:flex-row md:items-center justify-between mb-6 pb-4 border-b border-slate-100 mt-2">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                            Claude <span class="text-sm font-normal text-slate-500">by Anthropic</span>
+                        </h3>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-amber-500 font-bold text-lg">4.9</span>
+                            <div class="flex text-amber-400">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pros (Good Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-blue-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 fill-blue-100"></i> 良い点
+                    </h4>
+                    <ul class="bg-blue-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span><strong>日本語が圧倒的に自然。</strong> 翻訳調の違和感がなく、ビジネスメールや小説執筆でも手直し不要レベル。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span><strong>最強のコーディング支援。</strong>
+                                「Artifacts」機能で、作成したコード（React/HTMLなど）をその場でプレビューできるのが革命的。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span>指示への追従性が高い。複雑なプロンプトでも要件を漏らさず正確に実行してくれる。</span>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="mt-8 pt-6 border-t border-slate-100">
-                <p class="font-bold text-slate-800">結論：</p>
-                <p class="text-slate-600">初めてAIを使う人、画像生成を楽しみたい人、幅広い用途に1つで対応したい人におすすめ。</p>
-            </div>
-        </article>
 
-    </section>
-
-    <!-- Smart Combination Strategy -->
-    <section class="py-16 bg-slate-900 text-white px-4">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-2xl md:text-3xl font-bold mb-6">【プロの極意】1つ選ぶ必要はありません。<br>「併用」こそが最強の選択肢です。</h2>
-            <p class="text-slate-300 mb-10 leading-relaxed">
-                それぞれのAIには明確な得意分野があります。<br>
-                プロフェッショナルは、工程ごとに最適なAIを使い分けることで、効率を最大化しています。
-            </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
-                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
-                    <div class="absolute -top-3 left-6 bg-slate-700 px-3 py-1 rounded text-xs font-bold text-slate-300">
-                        Phase 1</div>
-                    <h3 class="font-bold text-lg mb-2 text-green-400">アイデア出し</h3>
-                    <p class="text-sm text-slate-400 mb-2">担当: <span class="font-bold text-white">ChatGPT</span></p>
-                    <p class="text-xs text-slate-500">直感的な会話と画像生成で、ゼロから1を生み出す。</p>
+                <!-- Cons (Concern Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-red-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="alert-triangle" class="w-5 h-5 text-red-500 fill-red-100"></i> 気になる点
+                    </h4>
+                    <ul class="bg-red-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="alert-octagon" class="w-4 h-4 text-red-500 mt-0.5 shrink-0"></i>
+                            <span><strong>画像生成機能がない。</strong> 絵を描かせたい場合は他のAIを使う必要がある。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="alert-octagon" class="w-4 h-4 text-red-500 mt-0.5 shrink-0"></i>
+                            <span>Web検索機能が弱め。最新のニュース速報などを調べる用途には向かない。</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
-                    <div class="absolute -top-3 left-6 bg-slate-700 px-3 py-1 rounded text-xs font-bold text-slate-300">
-                        Phase 2</div>
-                    <h3 class="font-bold text-lg mb-2 text-blue-400">リサーチ・調査</h3>
-                    <p class="text-sm text-slate-400 mb-2">担当: <span class="font-bold text-white">Gemini</span></p>
-                    <p class="text-xs text-slate-500">Google検索と連携し、最新情報や事実確認を高速に行う。</p>
+            </article>
+
+            <!-- Gemini -->
+            <article id="review-gemini" class="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+                <!-- Header -->
+                <div
+                    class="flex flex-col md:flex-row md:items-center justify-between mb-6 pb-4 border-b border-slate-100">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                            Gemini <span class="text-sm font-normal text-slate-500">by Google</span>
+                        </h3>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-blue-500 font-bold text-lg">4.7</span>
+                            <div class="flex text-blue-400">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star-half" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 relative">
-                    <div class="absolute -top-3 left-6 bg-slate-700 px-3 py-1 rounded text-xs font-bold text-slate-300">
-                        Phase 3</div>
-                    <h3 class="font-bold text-lg mb-2 text-amber-400">執筆・実装</h3>
-                    <p class="text-sm text-slate-400 mb-2">担当: <span class="font-bold text-white">Claude</span></p>
-                    <p class="text-xs text-slate-500">整った構成の文章作成や、バグのないコード実装で仕上げる。</p>
+
+                <!-- Pros (Good Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-blue-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 fill-blue-100"></i> 良い点
+                    </h4>
+                    <ul class="bg-blue-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span><strong>Google Workspace連携。</strong> Drive内のPDFやDocsを直接参照して回答してくれるのが唯一無二。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span><strong>200万トークンの巨大な記憶容量。</strong> 本数冊分や数十時間の動画ファイルを丸ごと読み込める。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span>Veo 2による動画生成が可能。テキストから高品質な動画を作れるのはGeminiだけ。</span>
+                        </li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="mt-8 p-4 bg-slate-800/50 rounded-lg inline-block text-sm text-slate-400">
-                <p>まずは各社の<span class="text-white font-bold">無料プラン</span>をすべて登録し、使い比べてみることを強くおすすめします。</p>
-            </div>
-        </div>
-    </section>
+                <!-- Cons (Concern Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-red-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="alert-triangle" class="w-5 h-5 text-red-500 fill-red-100"></i> 気になる点
+                    </h4>
+                    <ul class="bg-red-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="alert-octagon" class="w-4 h-4 text-red-500 mt-0.5 shrink-0"></i>
+                            <span>文章が少し硬い。Claudeに比べると「AIっぽさ」が残る場合がある。</span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
 
-    <!-- FAQ -->
-    <section class="bg-white py-12 px-4 border-t border-slate-200">
-        <div class="max-w-2xl mx-auto">
-            <h2 class="text-2xl font-bold text-center mb-8">よくある質問</h2>
-            <div class="space-y-4">
-                <details class="bg-slate-50 p-4 rounded-lg group">
-                    <summary class="font-bold cursor-pointer list-none flex justify-between items-center">
-                        Q. 無料版でも十分に使えますか？
-                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down"
-                                class="w-4 h-4"></i></span>
-                    </summary>
-                    <p class="text-slate-600 text-sm mt-2 leading-relaxed">
-                        はい、3社とも強力な無料プランを提供しています。基本的な会話や文章作成なら無料版で十分です。ただし、最新モデル（Opus
-                        4.5やGPT-5など）や画像生成などの高度な機能を使いたい場合は、有料プランへの加入をおすすめします。
-                    </p>
-                </details>
-                <details class="bg-slate-50 p-4 rounded-lg group">
-                    <summary class="font-bold cursor-pointer list-none flex justify-between items-center">
-                        Q. 日本語の精度が一番高いのはどれですか？
-                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down"
-                                class="w-4 h-4"></i></span>
-                    </summary>
-                    <p class="text-slate-600 text-sm mt-2 leading-relaxed">
-                        現時点では「Claude」が最も自然で違和感のない日本語を生成すると評価されています。ビジネスメールや小説の執筆など、言葉のニュアンスが重要な場面ではClaudeが最適です。
-                    </p>
-                </details>
-            </div>
-        </div>
-    </section>
+            <!-- ChatGPT -->
+            <article id="review-chatgpt" class="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+                <!-- Header -->
+                <div
+                    class="flex flex-col md:flex-row md:items-center justify-between mb-6 pb-4 border-b border-slate-100">
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                            ChatGPT <span class="text-sm font-normal text-slate-500">by OpenAI</span>
+                        </h3>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-green-500 font-bold text-lg">4.6</span>
+                            <div class="flex text-green-400">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star-half" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
-        <p>&copy; 2026 AI Comparison Guide. All context gathered from public sources.</p>
-    </footer>
+                <!-- Pros (Good Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-blue-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 fill-blue-100"></i> 良い点
+                    </h4>
+                    <ul class="bg-blue-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span><strong>総合力No.1の万能選手。</strong> 画像生成(DALL-E 3)、データ分析、Web検索、音声会話がこれ一つで完結する。</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                            <span>ネット上に情報が多い。「GPTs」で他人が作った便利なツールをすぐに使える。</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cons (Concern Points) -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-red-700 mb-2 flex items-center gap-2">
+                        <i data-lucide="alert-triangle" class="w-5 h-5 text-red-500 fill-red-100"></i> 気になる点
+                    </h4>
+                    <ul class="bg-red-50/80 rounded-lg p-4 text-sm text-slate-700 space-y-3">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="alert-octagon" class="w-4 h-4 text-red-500 mt-0.5 shrink-0"></i>
+                            <span>コーディングなどの「尖った性能」では、専門特化したClaude等に見劣りする場面も。</span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Final Thought (Combination) -->
+        <section class="mt-16 pt-8 border-t border-slate-200">
+            <h2 class="text-xl font-bold mb-4">編集部のおすすめ運用法</h2>
+            <div class="bg-slate-50 p-6 rounded-lg text-sm leading-relaxed text-slate-700">
+                <p class="mb-4">
+                    プロフェッショナルの現場では、1つのAIに固執せず<strong>「併用」</strong>するのが最適解となりつつあります。
+                </p>
+                <ul class="list-disc list-inside space-y-2 ml-2">
+                    <li><strong class="text-slate-900">アイデア出し・壁打ち:</strong> 会話のテンポが良い <span
+                            class="bg-green-100 text-green-800 px-1 rounded">ChatGPT</span> で拡散。</li>
+                    <li><strong class="text-slate-900">リサーチ・資料読み込み:</strong> コンテキストが広い <span
+                            class="bg-blue-100 text-blue-800 px-1 rounded">Gemini</span> で整理。</li>
+                    <li><strong class="text-slate-900">最終アウトプット:</strong> 文章力が高い <span
+                            class="bg-amber-100 text-amber-800 px-1 rounded">Claude</span> で仕上げる。</li>
+                </ul>
+                <p class="mt-4 text-xs text-slate-500">
+                    まずは各社の無料プランを試し、自分のWorkflowに合うものから有料課金することをおすすめします。
+                </p>
+            </div>
+        </section>
+
+        <footer class="mt-16 text-center text-xs text-slate-400 pb-8">
+            <p>&copy; 2026 AI Comparison Guide</p>
+        </footer>
+
+    </div>
 
     <script>
         lucide.createIcons();
